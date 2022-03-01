@@ -14,6 +14,7 @@ class Solution {
                 if(i!= index) {
                     result[0] = i;
                     result[1] = index;
+                    break;
                 }
             }
         }
