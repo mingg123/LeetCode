@@ -20,7 +20,6 @@ class Solution {
                 return false;
             }
             count+= map.get(t);
-            // System.out.println(t + " " + map.get(t));
         }
         
         
@@ -45,7 +44,6 @@ class Solution {
                 return false;
             }
             count2+= map2.get(t);
-            // System.out.println(t + " " + map.get(t));
         }
         
         if(count == word1.length()) return true;
