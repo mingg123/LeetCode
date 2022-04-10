@@ -5,7 +5,6 @@ class Solution {
             arr.add(nums[i]);
         }
         int temp = original;
-        boolean isflag = false;
         for(;;) {
             if(!arr.contains(temp)) {
                 break;
