@@ -8,10 +8,9 @@ class Solution {
         if(n % 2 == 1) {
             arr.add(0);
         }
-        Collections.sort(arr);
+        // Collections.sort(arr);
         int [] ans = new int[arr.size()];
         for(int i = 0 ; i < arr.size(); i++) {
-            // System.out.println(arr.get(i));
             ans[i] = arr.get(i);
         }
         return ans;
